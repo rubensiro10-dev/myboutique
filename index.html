@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ruben’s Boutique Nairobi — Curtains, Beddings, Carpets & Jewellery</title>
+  <meta name="description" content="Nairobi's premier boutique for handcrafted curtains, luxury beddings, imported carpets, stylish doormats, and fine jewellery. Fast delivery across Kenya.">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="announcement-bar">
+    <div class="announcement-container">
+      <div class="announcement-info">
+        <span>✨ Free Nairobi & Kajiado delivery on orders over KSh 5,000</span>
+      </div>
+      <div class="announcement-links">
+        <a href="tel:+254712345678">📞 +254 712 345 678</a>
+        <a href="https://wa.me/254712345678" target="_blank" rel="noopener">💬 WhatsApp Orders</a>
+        <a href="contact.html">📍 Nkaimurunya, Kajiado</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header Navigation -->
+  <header>
+    <div class="nav-wrapper">
+      <a href="index.html" class="brand-logo" aria-label="Ruben's Boutique Home">
+        <div class="brand-symbol">R</div>
+        <div class="brand-text">
+          <h1>Ruben’s Boutique</h1>
+          <p>Nairobi Living & Style</p>
+        </div>
+      </a>
+
+      <nav>
+        <a href="index.html" class="active">Home</a>
+        <a href="shop.html">Shop Catalog</a>
+        <a href="order.html">Order Online</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="cart-toggle-btn cart-trigger" aria-label="Open Shopping Cart" title="View Cart">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+          </svg>
+          <span class="cart-count-badge">0</span>
+        </button>
+
+        <a href="order.html" class="nav-cta-btn">
+          <span>Place Order</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+
+        <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-pill-badge">
+        <span>✨ The Benchmark of Elegant Living</span>
+      </div>
+      <h2>Transform Your Space with <span>Timeless Elegance</span></h2>
+      <p>Discover handcrafted curtains, hotel-grade beddings, plush Persian carpets, custom hardware, and fine artisan jewellery — curated specifically for your home and lifestyle.</p>
+      
+      <div class="hero-actions">
+        <a href="shop.html" class="btn btn-primary">
+          <span>Explore All Collections</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+        <a href="order.html" class="btn btn-outline-white">
+          <span>Custom Fitting Request</span>
+        </a>
+      </div>
+
+      <!-- Trust Pillars -->
+      <div class="hero-highlights">
+        <div class="highlight-box">
+          <div class="highlight-icon">🚚</div>
+          <div class="highlight-text">
+            <h4>Fast Doorstep Delivery</h4>
+            <p>Same-day & next-day in Nairobi</p>
+          </div>
+        </div>
+        <div class="highlight-box">
+          <div class="highlight-icon">✂️</div>
+          <div class="highlight-text">
+            <h4>Custom Tailoring</h4>
+            <p>Bespoke lengths & window measurements</p>
+          </div>
+        </div>
+        <div class="highlight-box">
+          <div class="highlight-icon">💎</div>
+          <div class="highlight-text">
+            <h4>Premium Durability</h4>
+            <p>Tested fabrics & non-fade materials</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Collections Section -->
+  <section class="section-wrapper">
+    <div class="section-header">
+      <span class="section-tag">Curated Categories</span>
+      <h2>Featured Collections</h2>
+      <p>Explore our signature lines tailored for luxurious bedrooms, grand living rooms, and elevated personal fashion.</p>
+    </div>
+
+    <div class="home-collection-grid">
+      <!-- Collection 1: Curtains & Rods -->
+      <article class="collection-card">
+        <div class="collection-card-media">
+          <img src="curtain.webp" alt="Luxury Curtains and Double Rods">
+          <span class="product-badge">Exclusive</span>
+        </div>
+        <div class="collection-card-content">
+          <h3>Curtains & Heavy-Duty Rods</h3>
+          <p>Blackout drapes, sheer voile fabrics, and antique brass double tracks built to hold heavy luxury curtains with zero sagging.</p>
+          <div class="collection-card-footer">
+            <span class="price-current">From KSh 3,200</span>
+            <a href="shop.html?category=curtains" class="card-link-arrow">
+              View Collection &rarr;
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Collection 2: Beddings -->
+      <article class="collection-card">
+        <div class="collection-card-media">
+          <img src="bedding.webp" alt="Egyptian Cotton Beddings & Velvet Pillows">
+          <span class="product-badge">Hot Pick</span>
+        </div>
+        <div class="collection-card-content">
+          <h3>Hotel-Grade Beddings</h3>
+          <p>Silky 800-thread-count Egyptian cotton sheet sets, plush duvets, and hypoallergenic accent pillows that feel like a luxury resort.</p>
+          <div class="collection-card-footer">
+            <span class="price-current">From KSh 2,400</span>
+            <a href="shop.html?category=beddings" class="card-link-arrow">
+              View Collection &rarr;
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Collection 3: Carpets & Mats -->
+      <article class="collection-card">
+        <div class="collection-card-media">
+          <img src="carpets.webp" alt="Persian Area Carpets & Heavy Duty Door Mats">
+          <span class="product-badge">Imported</span>
+        </div>
+        <div class="collection-card-content">
+          <h3>Carpets & Entrance Mats</h3>
+          <p>High-density non-shedding Persian rugs, modern geometric living room carpets, and natural coconut coir welcome mats.</p>
+          <div class="collection-card-footer">
+            <span class="price-current">From KSh 1,600</span>
+            <a href="shop.html?category=carpets" class="card-link-arrow">
+              View Collection &rarr;
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Collection 4: Jewellery -->
+      <article class="collection-card">
+        <div class="collection-card-media">
+          <img src="jewellery.webp" alt="Gold Plated Jewellery and Gemstone Bracelets">
+          <span class="product-badge">Artisan</span>
+        </div>
+        <div class="collection-card-content">
+          <h3>Artisan Jewellery</h3>
+          <p>Tarnish-resistant 18K gold-plated statement pieces, handcrafted gemstone charm bracelets, and bespoke personal accents.</p>
+          <div class="collection-card-footer">
+            <span class="price-current">From KSh 2,200</span>
+            <a href="shop.html?category=jewellery" class="card-link-arrow">
+              View Collection &rarr;
+            </a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Interactive Bestsellers Section with Live Quick View & Cart -->
+  <section class="section-wrapper" style="background: var(--bg-alt); border-top: 1px solid var(--border-light); border-bottom: 1px solid var(--border-light);">
+    <div class="section-header">
+      <span class="section-tag">Most Requested</span>
+      <h2>Customer Bestsellers</h2>
+      <p>Click "Quick View" to inspect details or "Add" directly to your shopping cart.</p>
+    </div>
+
+    <div class="products-grid">
+      <!-- Bestseller 1 -->
+      <article class="product-card">
+        <div class="product-card-media">
+          <img src="curtain.webp" alt="Luxury Jacquard Blackout Curtains">
+          <span class="product-badge">Bestseller</span>
+          <div class="product-card-overlay">
+            <button class="quick-view-action" onclick="window.openQuickView('prod-curtains-luxury')">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+              Quick View
+            </button>
+          </div>
+        </div>
+        <div class="product-card-content">
+          <span class="product-category">Curtains & Rods</span>
+          <h3 class="product-title" onclick="window.openQuickView('prod-curtains-luxury')">Luxury Jacquard Blackout Curtains</h3>
+          <p class="product-short-desc">Heavyweight thermal blackout fabric with metallic grommets and custom drop length.</p>
+          <div class="product-rating">
+            <span class="stars">★★★★★</span>
+            <span class="score">4.9</span>
+            <span class="count">(38 reviews)</span>
+          </div>
+          <div class="product-card-footer">
+            <div class="pricing-block">
+              <span class="price-current">KSh 4,500</span>
+              <span class="price-old">KSh 5,800</span>
+            </div>
+            <button class="btn btn-sm btn-primary add-to-cart-action" data-id="prod-curtains-luxury" onclick="boutiqueCart.addItem('prod-curtains-luxury', 1); showToast('Curtains added to cart!');">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+              Add
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Bestseller 2 -->
+      <article class="product-card">
+        <div class="product-card-media">
+          <img src="bedding.webp" alt="Egyptian Cotton Duvet & Sheet Set">
+          <span class="product-badge">Top Rated</span>
+          <div class="product-card-overlay">
+            <button class="quick-view-action" onclick="window.openQuickView('prod-egyptian-bedding')">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+              Quick View
+            </button>
+          </div>
+        </div>
+        <div class="product-card-content">
+          <span class="product-category">Beddings</span>
+          <h3 class="product-title" onclick="window.openQuickView('prod-egyptian-bedding')">Egyptian Cotton Duvet & Sheet Set</h3>
+          <p class="product-short-desc">Silky 800-thread-count Egyptian cotton sheet set with embroidered matching duvet cover.</p>
+          <div class="product-rating">
+            <span class="stars">★★★★★</span>
+            <span class="score">5.0</span>
+            <span class="count">(52 reviews)</span>
+          </div>
+          <div class="product-card-footer">
+            <div class="pricing-block">
+              <span class="price-current">KSh 6,800</span>
+              <span class="price-old">KSh 8,500</span>
+            </div>
+            <button class="btn btn-sm btn-primary add-to-cart-action" data-id="prod-egyptian-bedding" onclick="boutiqueCart.addItem('prod-egyptian-bedding', 1); showToast('Egyptian Bedding added to cart!');">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+              Add
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Bestseller 3 -->
+      <article class="product-card">
+        <div class="product-card-media">
+          <img src="carpets.webp" alt="Vintage Floral Persian Carpet">
+          <span class="product-badge">Luxury Pick</span>
+          <div class="product-card-overlay">
+            <button class="quick-view-action" onclick="window.openQuickView('prod-persian-carpet')">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+              Quick View
+            </button>
+          </div>
+        </div>
+        <div class="product-card-content">
+          <span class="product-category">Carpets & Mats</span>
+          <h3 class="product-title" onclick="window.openQuickView('prod-persian-carpet')">Vintage Floral Persian Area Carpet</h3>
+          <p class="product-short-desc">High-density woven silk-touch carpet with non-shed fibers and non-slip backing.</p>
+          <div class="product-rating">
+            <span class="stars">★★★★★</span>
+            <span class="score">4.9</span>
+            <span class="count">(41 reviews)</span>
+          </div>
+          <div class="product-card-footer">
+            <div class="pricing-block">
+              <span class="price-current">KSh 12,500</span>
+              <span class="price-old">KSh 15,500</span>
+            </div>
+            <button class="btn btn-sm btn-primary add-to-cart-action" data-id="prod-persian-carpet" onclick="boutiqueCart.addItem('prod-persian-carpet', 1); showToast('Persian Carpet added to cart!');">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+              Add
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Bestseller 4 -->
+      <article class="product-card">
+        <div class="product-card-media">
+          <img src="jewellery.webp" alt="18K Gold Plated Statement Necklace">
+          <span class="product-badge">Handcrafted</span>
+          <div class="product-card-overlay">
+            <button class="quick-view-action" onclick="window.openQuickView('prod-gold-necklace')">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+              Quick View
+            </button>
+          </div>
+        </div>
+        <div class="product-card-content">
+          <span class="product-category">Jewellery</span>
+          <h3 class="product-title" onclick="window.openQuickView('prod-gold-necklace')">18K Gold Plated Statement Necklace</h3>
+          <p class="product-short-desc">Tarnish-resistant 18K gold-plated pendant necklace with cubic zirconia accents.</p>
+          <div class="product-rating">
+            <span class="stars">★★★★★</span>
+            <span class="score">4.9</span>
+            <span class="count">(33 reviews)</span>
+          </div>
+          <div class="product-card-footer">
+            <div class="pricing-block">
+              <span class="price-current">KSh 3,500</span>
+              <span class="price-old">KSh 4,500</span>
+            </div>
+            <button class="btn btn-sm btn-primary add-to-cart-action" data-id="prod-gold-necklace" onclick="boutiqueCart.addItem('prod-gold-necklace', 1); showToast('Necklace added to cart!');">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+              Add
+            </button>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <div style="text-align: center; margin-top: 3rem;">
+      <a href="shop.html" class="btn btn-outline" style="min-width: 240px;">
+        Browse All Products &rarr;
+      </a>
+    </div>
+  </section>
+
+  <!-- Value Propositions / Why Ruben's Boutique -->
+  <section class="section-wrapper">
+    <div class="section-header">
+      <span class="section-tag">The Ruben's Guarantee</span>
+      <h2>Why Nairobi Chooses Us</h2>
+      <p>Exceptional quality, honest craftsmanship, and prompt personal attention on every order.</p>
+    </div>
+
+    <div class="values-grid">
+      <div class="value-card">
+        <div class="value-icon">🪡</div>
+        <h4>Custom Tailoring</h4>
+        <p>Curtains stitched to exact window dimensions and header styles (eyelet, pencil pleat, pinch pleat).</p>
+      </div>
+
+      <div class="value-card">
+        <div class="value-icon">⚡</div>
+        <h4>Fast Delivery</h4>
+        <p>Prompt dispatch across Nairobi, Kajiado, Rongai, Karen, and countrywide via reliable courier partners.</p>
+      </div>
+
+      <div class="value-card">
+        <div class="value-icon">🛡️</div>
+        <h4>Verified Quality</h4>
+        <p>Every fabric, rod, carpet, and jewellery piece undergoes rigorous quality checks before shipment.</p>
+      </div>
+
+      <div class="value-card">
+        <div class="value-icon">💬</div>
+        <h4>WhatsApp Assistance</h4>
+        <p>Direct contact with our styling experts for measurement guidance, color matching, and real photos.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action Banner -->
+  <section class="cta-banner">
+    <h2>Ready to Elevate Your Living Space?</h2>
+    <p>Shop our full collection online or send us your custom request. We make home makeover effortless.</p>
+    <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+      <a href="shop.html" class="btn btn-primary">Shop The Collection</a>
+      <a href="order.html" class="btn btn-outline-white">Place An Order Online</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <h3>Ruben’s Boutique</h3>
+        <p>Your destination for fine home textiles, elegant drapes, luxury beddings, plush area rugs, and statement jewellery in Nairobi and Kajiado County.</p>
+        <div class="social-icons-group">
+          <a href="https://wa.me/254712345678" target="_blank" rel="noopener" class="social-link-btn" title="Chat on WhatsApp">💬 WhatsApp</a>
+          <a href="https://instagram.com" target="_blank" rel="noopener" class="social-link-btn" title="Instagram">📸 Instagram</a>
+          <a href="https://facebook.com" target="_blank" rel="noopener" class="social-link-btn" title="Facebook">📘 Facebook</a>
+        </div>
+      </div>
+
+      <div class="footer-column">
+        <h4>Explore Shop</h4>
+        <ul class="footer-links">
+          <li><a href="shop.html?category=curtains">Curtains & Rods</a></li>
+          <li><a href="shop.html?category=beddings">Egyptian Beddings</a></li>
+          <li><a href="shop.html?category=carpets">Persian Carpets & Mats</a></li>
+          <li><a href="shop.html?category=jewellery">Fine Jewellery</a></li>
+          <li><a href="shop.html">All Collections</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="order.html">Order Online</a></li>
+          <li><a href="about.html">About Our Boutique</a></li>
+          <li><a href="contact.html">Contact & Location</a></li>
+          <li><a href="order.html">Delivery Information</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column footer-newsletter">
+        <h4>VIP Newsletter</h4>
+        <p>Subscribe for private sales, new arrivals, and interior decor inspiration.</p>
+        <form class="newsletter-form" id="newsletterForm">
+          <input type="email" placeholder="Your email address" required aria-label="Email address">
+          <button type="submit" class="btn btn-primary btn-sm">Join</button>
+        </form>
+        <div style="margin-top: 1.25rem; font-size: 0.8rem; color: #9ca3af;">
+          <span>📍 Nkaimurunya, Kajiado County, Kenya</span><br>
+          <span>📞 +254 712 345 678</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="footer-bottom-container">
+        <p>&copy; 2026 Ruben’s Boutique Nairobi. All rights reserved.</p>
+        <p>Crafted for elegance & comfort.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
