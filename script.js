@@ -875,7 +875,7 @@ function initOrderForm() {
     // Kenyan/International Phone validation
     const phoneVal = phoneEl.value.trim();
     const phoneRegex = /^[+]?[(]?[0-9]{1,4}[)]?[-\s./0-9]{7,15}$/;
-    validateField(phoneEl, phoneRegex.test(phoneVal) && phoneVal.length >= 9, "Please enter a valid phone number (e.g. 0712345678 or +254...).");
+    validateField(phoneEl, phoneRegex.test(phoneVal) && phoneVal.length >= 9, "Please enter a valid phone number (e.g. 0798392403 or +254...).");
 
     // Email validation
     const emailVal = emailEl.value.trim();
@@ -958,7 +958,7 @@ function showOrderSuccessModal(order) {
   }
   if (order.notes) waSummary += `*Special Requests:* ${order.notes}%0A`;
 
-  const waUrl = `https://wa.me/254712345678?text=${waSummary}`;
+  const waUrl = `https://wa.me/254798392403?text=${waSummary}`;
 
   modal.innerHTML = `
     <div class="modal-dialog order-confirm-dialog" role="dialog" aria-modal="true">
